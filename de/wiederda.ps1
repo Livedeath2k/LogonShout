@@ -1,2 +1,2 @@
-$wort = gc c:\LogonShout\liste.txt | sort{get-random} | select -First 1
+$wort = gc c:\LogonSwear\liste.txt | sort{get-random} | select -First 1
 PowerShell -Command "Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('Wilkommen zurück Du $wort');"
