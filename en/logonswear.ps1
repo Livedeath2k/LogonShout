@@ -12,7 +12,7 @@ Add-Type -AssemblyName System.speech
 # At first it recognises the current path
 $scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
 # Different greetings as variables
-$Speech1, $Speech2, $Speech3 = "Hallo Du", "Willkommen zurueck", "Tschüss"
+$Speech1, $Speech2, $Speech3 = "Welcome", "Welcome back", "Good bye"
 # Select the voice type
 $TalkFM, $TalkAge = 'Male', 'Adult'
 
