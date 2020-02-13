@@ -1,11 +1,11 @@
-# LogonShout
+# LogonSwear
 
 English / Englisch:
 
 It uses Powershell to use TTS.
 
 To test manually you need to specify the following params:
--Type swear/Praise
+-Type swear/praise
 -Art login/logon/logout
 
 Hello.
